@@ -1,0 +1,38 @@
+$content-width: 800px;
+$main: #19CCAA;
+$font-style: 'Open Sans', sans-serif;
+$font-color: #262626;
+$link-color: #425469;
+$link-hover-color: $main;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #425469;
+$light: #E7EDF4;
+$header:  #1D1425;
+
+@import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css);
+
+html, body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans Japanese', serif;
+}
+
+p {
+  font-family: 'Noto Sans Japanese"', serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
