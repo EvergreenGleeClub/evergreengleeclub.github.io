@@ -1,0 +1,34 @@
+footer {
+  background-color: rgba(82, 70, 81, 1);
+  color: white;
+  // display: flex;
+  // flex-direction: column;
+
+  .footer-info {
+    padding: 0 30px;
+    display: flex;
+
+    h3 {
+      color: white;
+    }
+    // flex-direction: row;
+
+    // .footer-info_sns {
+    //   flex-basis: 50%;
+    // }
+
+    // .footer-info_join- {
+    //   flex-basis: 50%;
+    // }
+  }
+
+  .bottom-bar {
+    background-color: rgba(51, 44, 51, 1);
+  }
+}
+
+.footer_bottom-bar_copyright {
+  font-family: 'Noto Sans Japanese', serif;
+  justify-content: center;
+  text-align: center;
+}

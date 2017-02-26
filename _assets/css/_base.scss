@@ -13,26 +13,64 @@ $header:  #1D1425;
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url(//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css);
 
-html, body {
-  font-family: 'Noto Sans Japanese', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans Japanese', serif;
-}
-
-p {
-  font-family: 'Noto Sans Japanese"', serif;
-}
-
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-}
-
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+html, body {
+  // font-family: 'Noto Sans Japanese', sans-serif;
+  font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', "Helvetica Neue", 'Helvetica', 'Arial',
+	Meiryo, "Hiragino Kaku Gothic Pro", Osaka, "MS P Gothic", sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // font-family: 'Noto Sans Japanese', serif;
+  color: rgb(60, 114, 4);
+}
+
+h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+dt, dd {
+  margin: 0;
+}
+
+a {
+  transition: color 200ms ease-in-out;
+}
+
+a:link, a:visited {
+  color: rgb(60, 114, 4);
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: lighten(rgb(60, 114, 4), 10%);
+}
+
+
+p {
+  // font-family: 'Noto Sans Japanese"', serif;
 }
