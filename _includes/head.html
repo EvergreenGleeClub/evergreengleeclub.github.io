@@ -6,13 +6,17 @@
 	<!--Open Graph Site Info-->
 	<meta property="fb:app_id" content="709313542595138"/>
 	<meta content="Evergreen Glee Club" property="og:site_name">
-	<meta content="Evergreen Glee Club, founded in 2006, is a local men’s chorus in Seattle that sings traditional and contemporary Japanese songs. EGC、エバグリーン・グリー・クラブは、2006年にシアトルで結成された、男性コーラスグループです。" property="og:description">
+
 
 	<!--Open Graph Page Info-->
 	<meta property="og:url"           content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="{{page.title | truncate: 40}}" />
+	{% if page.excerpt %}
   <meta property="og:description"   content="{{page.excerpt | remove: '<p>' | remove: '</p>' | truncate: 40}}" />
+	{% else %}
+	<meta property="og:description" content="Evergreen Glee Club, founded in 2006, is a local men’s chorus in Seattle that sings traditional and contemporary Japanese songs. EGC、エバグリーン・グリー・クラブは、2006年にシアトルで結成された、男性コーラスグループです。">
+	{% endif %}
 	{% if page.images.feature %}
   <meta property="og:image"         content="{{site.url}}{% asset_path {{page.images.feature}} %}" />
 	{% endif %}
