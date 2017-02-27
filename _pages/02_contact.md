@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=a77e1d42f85a6b62878da7332bbd5d9e" method="post">
-  <!--<input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />-->
+  <input type='hidden' name='redirect_to' value='http://egcseattle.com/contact-thankyou' />
   <h2>Contact Us</h2>
   <ul>
     <li>
