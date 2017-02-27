@@ -1,0 +1,58 @@
+.news {
+  max-width: 750px;
+  padding: 30px;
+  margin: 0 auto;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  }
+  .list-entry {
+    padding: 0px;
+    padding-bottom: 5px;
+    .entry-header {
+      background-color: rgba(90, 166, 12, 1);
+      padding: 10px;
+      margin-bottom: 5px;
+      width: 100%;
+      .title, time {
+        color: white;
+      }
+      .title {
+        margin: 0;
+        line-height: 1.5;
+        a {
+          &:link, &:visited {
+            color: white;
+          }
+        }
+      }
+    }
+    .content-excerpt {
+      margin: 10px 20px;
+    }
+    .read-more {
+      display: block;
+      margin-bottom: 2em;
+      padding: 1em;
+      background-color: #eee;
+      text-align: center
+    }
+  }
+}
+
+.news-post {
+  max-width: 750px;
+  padding: 30px;
+  margin: 0 auto;
+
+  time {
+    display: block;
+  }
+
+  .fb-share-button {
+    margin: 1em 0;
+  }
+}

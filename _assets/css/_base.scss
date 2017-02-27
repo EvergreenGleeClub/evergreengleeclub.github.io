@@ -9,9 +9,10 @@ $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #1D1425;
 
+@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css);
 @import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css);
+
 
 *,
 *::before,
@@ -22,9 +23,9 @@ $header:  #1D1425;
 }
 
 html, body {
-  // font-family: 'Noto Sans Japanese', sans-serif;
-  font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', "Helvetica Neue", 'Helvetica', 'Arial',
-	Meiryo, "Hiragino Kaku Gothic Pro", Osaka, "MS P Gothic", sans-serif;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  // font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', "Helvetica Neue", 'Helvetica', 'Arial',
+	// Meiryo, "Hiragino Kaku Gothic Pro", Osaka, "MS P Gothic", sans-serif;
   min-height: 100vh;
 }
 
