@@ -47,6 +47,8 @@
 
 .general-intro-image {
   position: absolute;
+  top: 0;
+  left: -1px;
   width: calc(100% + 20px);
   height: 100%;
   // background-image: url(asset_path("images/home_title_intro.jpg"));
