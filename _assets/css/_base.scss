@@ -76,16 +76,26 @@ a {
   transition: color 200ms ease-in-out;
 }
 
-a:link, a:visited {
-  color: rgb(60, 114, 4);
-}
-
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+a:link, a:visited {
+  color: rgb(60, 114, 4);
+}
+
 a:hover {
   color: lighten(rgb(60, 114, 4), 10%);
+}
+
+.dark {
+  a:link, a:visited {
+    color: #ccc;
+  }
+
+  a:hover {
+    color: lighten(rgb(60, 114, 4), 10%);
+  }
 }
 
 
