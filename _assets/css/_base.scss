@@ -9,10 +9,27 @@ $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #1D1425;
 
-@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css);
-@import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url("//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css");
+// @import url("//fonts.googleapis.com/earlyaccess/mplus1p.css");
+// @import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css:400,700");
 
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Sans Japanese';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format('opentype');
+ }
 
 *,
 *::before,
