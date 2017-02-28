@@ -30,6 +30,8 @@
 
 	{% if page.images.feature.length > 0 %}
   <meta property="og:image"         content="{{site.url}}{% asset_path {{page.images.feature}} %}" />
+	{% else %}
+  <meta property="og:image"         content="{{site.url}}{% asset_path 'pages/home_title_intro.jpg' %}" />
 	{% endif %}
 
 	<!--Usual Meta Stuff-->
