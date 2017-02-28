@@ -65,18 +65,22 @@
   width: 100%;
   max-width: 50em;
   margin: 0 auto;
+  padding: 1.5em 0.5em;
+  font-size: 18px;
+
+  @media only screen and (min-width: 860px) {
+    font-size: 25px;
+  }
 
   h3 {
-    font-size: 250%;
+    font-size: 90%;
     font-weight: 600;
+    margin: 20px 0;
   }
 
   .event {
-    .name {
-
-    }
     .title {
-      font-size: 250%;
+      font-size: 150%;
       font-weight: 600;
       color: rgb(29, 64, 3);
     }
@@ -84,6 +88,7 @@
       font-size: 120%;
       font-style: italic;
       font-weight: lighter;
+      line-height: 1.2;
       margin: 0 auto;
       max-width: 40em;
       color: rgb(0, 0, 0);
@@ -92,10 +97,15 @@
   .details {
     margin-top: 2em;
     dl {
-      font-size: 120%;
+      font-size: 90%;
       .row {
         margin-top: 1em;
       }
     }
+  }
+
+  .event-poster {
+    width: 90%;
+    max-width: 700px;
   }
 }
