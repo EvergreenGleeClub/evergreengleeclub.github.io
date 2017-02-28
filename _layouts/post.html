@@ -5,8 +5,7 @@ layout: default
   <a href="{{ "/news" | prepend: site.baseurl }}" class="back-to-news">Back to All News</a>
   <h2>{{ page.title }}</h2>
   <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-  <div class="fb-share-button" 
-    data-href="http://www.your-domain.com/your-page.html" 
+  <div class="fb-share-button"  
     data-layout="button_count">
   </div>
   {{ content }}
