@@ -4,29 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-
-<form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=a77e1d42f85a6b62878da7332bbd5d9e" method="post">
-  <input type='hidden' name='redirect_to' value='http://egcseattle.com/contact-thankyou' />
-  <h2>Contact Us</h2>
-  <ul>
-    <li>
-      <label for="name">Name</label>
-      <input type="text" name="name" placeholder="Enter your name here" required>
-    </li>
-    <li>
-      <label for="email">Email</label>
-      <input type="email" name="email" placeholder="Enter your email here" required>
-    </li>
-    <li>
-      <label for="message">Subject</label>
-      <input id="subject" name="subject" placeholder="Enter your subject here" required>
-    </li>
-    <li>
-      <label for="message">Message</label>
-      <textarea rows="6" name="message" placeholder="Enter your message here" required></textarea>
-    </li>
-    <li>
-      <button type="submit">Submit</button>
-    </li>
-  </ul>
-</form>
+<div class="contact-form">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHZW3_nD9W_rQds5AS-DkzUrjtmqm_zeeKMSdNPiYEFn0U2Q/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
