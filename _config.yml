@@ -20,7 +20,10 @@ description: >
   EGC、エバグリーン・グリー・クラブは、2006年にシアトルで結成された、男性コーラスグループです。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://egcseattle.com" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: EvergreenGleeClub
+facebook:
+  app_id: 709313542595138
+  publisher: "https://www.facebook.com/EvergreenGleeClub/"
+  admins: 402290736500326
 
 defaults:
   -
@@ -35,8 +38,11 @@ markdown: kramdown
 sass:
   sass_dir: _sass
 gems:
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-assets
+  - jekyll-sitemap
+
 include: ['_pages']
 exclude:
   - Gemfile
