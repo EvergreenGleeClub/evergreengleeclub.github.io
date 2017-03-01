@@ -23,7 +23,6 @@ url: "https://egcseattle.com" # the base hostname & protocol for your site, e.g.
 facebook:
   app_id: 709313542595138
   publisher: "https://www.facebook.com/EvergreenGleeClub/"
-  admins: 402290736500326
 
 defaults:
   -
