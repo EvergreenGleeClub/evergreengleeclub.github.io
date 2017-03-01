@@ -42,7 +42,7 @@ gems:
   - jekyll-assets
   - jekyll-sitemap
 
-include: ['_pages']
+include: ['_pages', 'robots.txt']
 exclude:
   - Gemfile
   - Gemfile.lock
