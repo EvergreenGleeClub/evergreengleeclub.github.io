@@ -1,7 +1,13 @@
 ---
-layout: page
+layout: page-feature
 title: About
 permalink: /about/
+feature_title:
+  en: About EGC
+  ja: EGCについて
+images:
+  feature: "pages/about_featured.jpg"
+order: 1
 ---
 
 # EGCについて

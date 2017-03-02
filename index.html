@@ -7,59 +7,72 @@ images:
   feature: "pages/home_title_intro.jpg"
 ---
 
-<section class="upcoming-event" itemscope itemtype="http://schema.org/Event">
-  <h3>Upcoming Event:</h3>
-  <div class="event">
-    <div class="name">
-      <h3 class="title">
-        <a href="https://www.facebook.com/Seattle.Japanese.Chorus.Festival/" target="_blank">
-          <span itemprop="name">Seattle Japanese Chorus Festival</span>
-        </a>
-      </h3>
-      <h4 class="subtitle" itemprop="description">Continuing the friendships formed during the 2011 earthquake relief</h4>
+<div class="homepage">
+  <section class="homepage-intro">
+    <p>Welcome to the site of Evergreen Glee Club, a men's glee club in the Puget Sound area, established in January 2006.</p>
+    <p>We sing <a href="/repertoire">a varied repertoire</a> of nostalgic, traditional and contemporary Japanese songs. Members practice twice a month, ususlly on Sundays for two hours.</p>
+    <dt>Please follow us on Facebook to get latest updates!</dt>
+    <dd>
+      <div class="fb-follow" 
+        data-href="https://www.facebook.com/EvergreenGleeClub" 
+        layout="button" data-size="large" data-show-faces="false"
+      ></div>
+    </dd>
+  </section>
+  <section class="upcoming-event" itemscope itemtype="http://schema.org/Event">
+    <h3>Upcoming Event:</h3>
+    <div class="event">
+      <div class="name">
+        <h3 class="title">
+          <a href="https://www.facebook.com/Seattle.Japanese.Chorus.Festival/" target="_blank">
+            <span itemprop="name">Seattle Japanese Chorus Festival</span>
+          </a>
+        </h3>
+        <h4 class="subtitle" itemprop="description">Continuing the friendships formed during the 2011 earthquake relief</h4>
+      </div>
     </div>
-  </div>
-  <div class="details">
-    <dl class="container-fluid">
-      <div class="row">
-        <dt class="col-xs-5 end-xs">Time</dt>
-        <dd class="col-xs-5 col-xs-offset-1 start-xs">
-          <span>March 11th, 2017</span> 5:30 PM Concert, 7:00 PM Potluck
-          <span class="visuallyhidden" itemprop="startDate">2017-03-11</span>
-        </dd>
-      </div>
-      <div class="row">
-        <dt class="col-xs-5 end-xs">Location</dt>
-        <dd class="col-xs-5 col-xs-offset-1 start-xs">
-          <a
-            href="https://www.google.com/maps/place/Bellevue+Children's+Academy/@47.6326071,-122.1439742,15z/"
-            itemprop="location" itemscope itemtype="http://schema.org/Place"
-            target="_blank"
-          >
-            <span itemprop="name">Bellevue Children's Academy</span>,<span itemprop="address">14600 NE 24th St, Bellevue, WA 98007</span>
-          </a>
-        </dd>
-      </div>
-      <div class="row">
-        <dt class="col-xs-5 end-xs">Website</dt>
-        <dd class="col-xs-5 col-xs-offset-1 start-xs">
-          <a
-            href="https://www.facebook.com/Seattle.Japanese.Chorus.Festival/"
-            target="_blank"
-            itemprop="url"
-          >
-            Facebook Page
-          </a>
-        </dd>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <img class="event-poster" src="{% asset_path 'news/2017_gassyousai_japanese.jpg' %}" alt="Seattle Japanese Chorus Festival Japanese Poster" itemprop="image">
+    <div class="details">
+      <dl class="container-fluid">
+        <div class="row">
+          <dt class="col-xs-5 end-xs">Time</dt>
+          <dd class="col-xs-5  start-xs">
+            <span>March 11th, 2017</span> 5:30 PM Concert, 7:00 PM Potluck
+            <span class="visuallyhidden" itemprop="startDate">2017-03-11</span>
+          </dd>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <img class="event-poster" src="{% asset_path 'news/2017_gassyousai_english.jpg' %}" alt="Seattle Japanese Chorus Festival English Poster" itemprop="image">
+        <div class="row">
+          <dt class="col-xs-5 end-xs">Location</dt>
+          <dd class="col-xs-6  start-xs">
+            <a
+              href="https://www.google.com/maps/place/Bellevue+Children's+Academy/@47.6326071,-122.1439742,15z/"
+              itemprop="location" itemscope itemtype="http://schema.org/Place"
+              target="_blank"
+            >
+              <span itemprop="name">Bellevue Children's Academy</span>,<br><span itemprop="address">14600 NE 24th St, Bellevue, WA 98007</span>
+            </a>
+          </dd>
         </div>
-      </div>
-    </dl>
-  </div>
-</section>
+        <div class="row">
+          <dt class="col-xs-5 end-xs">Website</dt>
+          <dd class="col-xs-5  start-xs">
+            <a
+              href="https://www.facebook.com/Seattle.Japanese.Chorus.Festival/"
+              target="_blank"
+              itemprop="url"
+            >
+              Facebook Page
+            </a>
+          </dd>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <img class="event-poster" src="{% asset_path 'news/2017_gassyousai_japanese.jpg' %}" alt="Seattle Japanese Chorus Festival Japanese Poster" itemprop="image">
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <img class="event-poster" src="{% asset_path 'news/2017_gassyousai_english.jpg' %}" alt="Seattle Japanese Chorus Festival English Poster" itemprop="image">
+          </div>
+        </div>
+      </dl>
+    </div>
+  </section>
+</div>

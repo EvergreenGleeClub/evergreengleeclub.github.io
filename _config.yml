@@ -16,7 +16,7 @@
 title: Evergreen Glee Club
 # email: your-email@domain.com
 description: >
-  Evergreen Glee Club, founded in 2006, is a a local men’s chorus that sings traditional and contemporary Japanese songs.
+  Evergreen Glee Club (known as EGC), founded in 2006 in Seattle, WA, is a a local men’s chorus that sings traditional and contemporary Japanese songs.
   EGC、エバグリーン・グリー・クラブは、2006年にシアトルで結成された、男性コーラスグループです。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://egcseattle.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -43,7 +43,7 @@ gems:
   - sprockets-helpers
   - jekyll-sitemap
 
-include: ['_pages', 'robots.txt']
+include: ['_pages', 'robots.txt', '_data']
 exclude:
   - Gemfile
   - Gemfile.lock

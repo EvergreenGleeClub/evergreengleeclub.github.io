@@ -1,63 +1,21 @@
-.thick-intro {
-  // @media only screen and (min-width: 550px) {
-  //   font-size: 120%;
-  //   height: 340px;
-  // }
-  // @media only screen and (min-width: 660px) {
-  //   font-size: 140%;
-  //   height: 400px;
-  // }
-  @media only screen and (min-width: 860px) {
-    font-size: 200%;
-    height: 470px;
-  }
-  height: 400px;
+.homepage section {
+  text-align: center;
   width: 100%;
-  position: relative;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 1.5em 0.5em;
 
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  
-  overflow: hidden;
-  // margin: -1px;
+  &:not(:first-of-type) {
+    padding: 0.5em;
+  }
 
-  .intro-title { 
-    
-    // position: absolute;
-    // width: 100%;
-    // transform: translateY(-50%);
-    z-index: 2;
-    // padding-top: 100px;
-    text-align: center;
-
-    h2 {
-      color: white;
-      font-size: 200%;
-      font-weight: lighter;
-
-      &[lang~="ja"] {
-        font-size: 125%;
-      }
-    }
+  &.homepage-intro {
+    max-width: 45em;
   }
 }
 
-.general-intro-image {
-  position: absolute;
-  top: 0;
-  left: -1px;
-  width: calc(100% + 20px);
-  height: 100%;
-  // background-image: url(asset_path("images/home_title_intro.jpg"));
-  background-position: center 35%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(3px) brightness(75%);
-  z-index: 1;
-  margin: -3px -3px -3px -3px;
+.homepage-intro .fb-follow {
+  margin-top: 1em;
 }
 
 .upcoming-event {
@@ -65,7 +23,7 @@
   width: 100%;
   max-width: 50em;
   margin: 0 auto;
-  padding: 1.5em 0.5em;
+  padding: 0.5em 0.5em;
   font-size: 18px;
 
   @media only screen and (min-width: 860px) {
@@ -90,12 +48,12 @@
       font-weight: lighter;
       line-height: 1.2;
       margin: 0 auto;
-      max-width: 40em;
+      max-width: 20em;
       color: rgb(0, 0, 0);
     }
   }
   .details {
-    margin-top: 2em;
+    margin: 1em 0;
     dl {
       font-size: 90%;
       .row {

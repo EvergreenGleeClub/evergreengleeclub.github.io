@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Contact
+description: Contact page for the Evergreen Glee Club.
 permalink: /contact/
+order: 3
 ---
 
 <div class="contact-form">
