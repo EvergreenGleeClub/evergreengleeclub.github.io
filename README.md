@@ -17,6 +17,8 @@ Live Server:
 
 Visit `http://127.0.0.1:4000/`
 
+Jekyll Documentation located at https://jekyllrb.com/
+
 ## Build Dependencies
 `npm install -g firebase-tools`
 
