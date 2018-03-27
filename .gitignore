@@ -3,6 +3,5 @@ _site
 .jekyll-metadata
 public
 .firebaserc
-firebase.json
 .asset-cache
 .asset-cache/*
