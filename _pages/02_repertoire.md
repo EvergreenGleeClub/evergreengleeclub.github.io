@@ -27,6 +27,13 @@ order: 2
         <dd>
           {{song.description}}
         </dd>
+        {% if song.subtitles %}
+          <dd class="subtitle">
+	      {% for subtitle in song.subtitles %}
+                {{subtitle}}<br/>
+              {% endfor %}
+          </dd>
+	{% endif %}
       </div>
     {% endfor %}
   </dl>
