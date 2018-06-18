@@ -29,5 +29,5 @@ Log into firebase:
 `firebase login`
 
 ## Build and Deploy
-`bundle exec jekyll build --destination public`
+   `bundle exec jekyll build --destination public`
 `firebase deploy`

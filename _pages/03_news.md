@@ -7,6 +7,7 @@ description: Latest news from the Evergreen Glee Club.
 permalink: /news/
 images:
   feature: "pages/news_featured.jpg"
+exclude: true
 ---
 <div class="news">
   <ul class="list-entries">
