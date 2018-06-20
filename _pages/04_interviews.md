@@ -17,3 +17,6 @@ feature_title:
 ### <a href="/interview_39">松尾　貴史</a>
 ### <a href="/interview_40">フリスク　チャド</a>
 
+指揮者と発声指導をしていただいているふみさんにもインタビューに答えていただきました
+
+### <a href="/interview_104">田形　ふみ</a>
