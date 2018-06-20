@@ -73,3 +73,7 @@ exclude: True
 
 大丈夫だよ
 
+### 嫌いなもの
+
+暗譜の怪しい本番前……ステージでまっしろ![Screaming in fear]({{ 'pages/face-screaming-in-fear.png' | asset_path }}){:style="display: inline"}
+になった夢を未だ見ます
